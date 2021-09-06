@@ -1,13 +1,96 @@
-body {
+.app{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body{
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+}
+.navbar{
+  height: 10vh;
+  width: 100%;
+  background: #325765;
+  padding-top: 0%;
+  margin: 0%;
+  border: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul.navList{
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.link{
+  color:#4d818c;
+  font-size: 18px;;
+  background: none !important;
+  border:none;
+  padding:20px 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+ul.navList li{
+  list-style:none;
+  display: inline; 
+}
+.logo{
+  height: 50px;
+  width: 60px;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+.right{
+  float: right;
+}
+.left{
+  float: left;
+}
+.menuItems{
+width:100%;
+display: flex;
+}
+.title{
+  color: white;
+  font-size: 20px;
+}
+.menuItem {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  height :20%;
+  min-height: 20%;
+  display: inline-block;
+  padding: 10px;
+}
+.menuItem:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.itemHead{
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.personCard{
+  border:1px solid #325765;
+  background: #4d818c;
+  color: white;
+  margin-top: 15px;
+  border-radius: 20px;
+display: flex;
+
+}
+.profilePic{
+  border-radius: 20px;
+height:300px;
+width:300px;
+}
+.personDesc{
+  padding-left: 10px;
+  padding-top: 20px;
+font-size: 18px;
 }
