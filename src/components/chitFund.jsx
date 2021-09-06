@@ -1,9 +1,9 @@
 import React from 'react'
 
-function ChitsAndSchemes() {
+function ChitFund() {
     return (
         <div>Chits and Scheme</div>
     )
 }
 
-export default ChitsAndSchemes
+export default ChitFund

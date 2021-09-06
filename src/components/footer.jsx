@@ -11,7 +11,7 @@ function Footer() {
 
         <p className="right">Website Designed by<br/>
          Ramprasadh Natarajan.</p> */}
-      <span className="copyrights" style={{paddingLeft:"40%"}}>&#169; Annai Abirami Chitfunds</span>
+      <span className="copyrights" style={{paddingLeft:"40%"}}>&#169; Annai Abirami Group of Companies pvt ltd</span>
     </p>
   );
 }

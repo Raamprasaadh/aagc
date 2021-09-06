@@ -9,7 +9,7 @@ function About() {
 
         <p>\below are the key members in the firm</p>
         <div className="personCard">
-            <img className="profilePic" src="../assets/images/chairman.jpg" alt="chairman" />
+            <img className="profilePic" src={process.env.PUBLIC_URL+"/assets/images/chairman.jpg"} alt="chairman" />
             <div className="personDesc">
                 Meet our chairman Mr S.Jayaraman, he is the secratary of the business wing of AIADMk party of our district Mayiladuthurai,
                 also he is the chairman of the lions club of our town sirkali.
@@ -18,7 +18,7 @@ function About() {
             </div>
         </div>
         <div className="personCard">
-            <img className="profilePic" src="../assets/images/vice-president.jpg" alt="" />
+            <img className="profilePic" src={process.env.PUBLIC_URL+"/assets/images/vice-president.jpg"} alt="vice president" />
             <div className="personDesc">
                 Meet our Vice president Mr J.Nirmal Kumar B.Arch, he is the CEO of DRONA Architects, and vice president of the Annai Abirami groups,
 

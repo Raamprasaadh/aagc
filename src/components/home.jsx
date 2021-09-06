@@ -3,9 +3,9 @@ import React from "react";
 function Home({
     onChangeMode=()=>{}
 }) {
-    const menuItems =[{heading:"History",desc:"Our organisation was started by mr Jayaraman in year 20xx ..",changeVal:"a"},
-    {heading:"Achievements",desc:"Our director have been honored by the responsibility of aiadmk district...",changeVal:"a"},
-    {heading:"Chits and Schemes",desc:"Click on read more to know about our highly beneficial chits and schemes ... ",changeVal:"cs"}]
+    const menuItems =[{heading:"Aqua Products",desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ipsum quidem odit minus placeat ex velit cum nisi, veniam mollitia error perferendis esse culpa nam recusandae pariatur hic aliquid? Maiores?",changeVal:"ap"},
+    {heading:"Chitfund",desc:"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ipsum quidem odit minus placeat ex velit cum nisi, veniam mollitia error perferendis esse culpa nam recusandae pariatur hic aliquid? Maiores?",changeVal:"cs"},
+    {heading:"Real estate and builders",desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non ipsum quidem odit minus placeat ex velit cum nisi, veniam mollitia error perferendis esse culpa nam recusandae pariatur hic aliquid? Maiores?",changeVal:"rb"}]
     function menuItem(item){
         return(
             <div className="menuItem">
@@ -24,7 +24,7 @@ function Home({
   return (
     <div className="details">
       <div className="carousal">
-        <img src="../assets/images/15years.png" alt="404"  style={{height:"30%", width:"100%",objectFit:"cover"}}/>
+        <img src={process.env.PUBLIC_URL +"/assets/images/15years.png"} alt="404"  style={{height:"30%", width:"100%",objectFit:"cover"}}/>
       </div>
       <div className="menuItems">
       {menuItem(menuItems[0])}
