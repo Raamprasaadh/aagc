@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/aagc/static/css/main.35fa6c14.chunk.css",
-    "main.js": "/aagc/static/js/main.9d5e5433.chunk.js",
-    "main.js.map": "/aagc/static/js/main.9d5e5433.chunk.js.map",
+    "main.js": "/aagc/static/js/main.0a7166aa.chunk.js",
+    "main.js.map": "/aagc/static/js/main.0a7166aa.chunk.js.map",
     "runtime-main.js": "/aagc/static/js/runtime-main.2c444b2a.js",
     "runtime-main.js.map": "/aagc/static/js/runtime-main.2c444b2a.js.map",
     "static/js/2.514d2139.chunk.js": "/aagc/static/js/2.514d2139.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.2c444b2a.js",
     "static/js/2.514d2139.chunk.js",
     "static/css/main.35fa6c14.chunk.css",
-    "static/js/main.9d5e5433.chunk.js"
+    "static/js/main.0a7166aa.chunk.js"
   ]
 }
